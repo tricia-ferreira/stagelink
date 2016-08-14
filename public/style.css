@@ -1,0 +1,33 @@
+.categoriesList {
+  border-top: 1px solid #e6e6e6;
+  height: 20px;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+.categoriesList li {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 33%;
+}
+
+.categoriesList a {
+  color: #4d4d4d;
+  cursor: pointer;
+  padding: 3px 7px;
+  text-decoration: none;
+  width: 100%;
+}
+
+.categoriesList a.selected {
+  border: 1px solid rgba(175, 47, 47, 0.2);
+  border-radius: 4px;
+}
+
+.showCategory {
+  position: absolute;
+  right: 50px;
+  top: 20px;
+}
